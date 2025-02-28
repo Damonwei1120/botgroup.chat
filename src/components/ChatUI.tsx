@@ -541,6 +541,13 @@ const ChatUI = () => {
                     )}
                   </div>
                 ))}
+                <div ref={messagesEndRef} />
+                {/* 添加一个二维码 */}
+                <div id="qrcode" className="flex flex-col items-center hidden">
+                  <img src="/img/1.png" alt="QR Code" className="w-24 h-24" />
+                  <p className="text-sm text-gray-500 mt-2 font-medium tracking-tight bg-gray-50 px-3 py-1 rounded-full">扫码体验AI群聊</p>
+                </div>
+              </div>
 
             </ScrollArea>
           </div>
