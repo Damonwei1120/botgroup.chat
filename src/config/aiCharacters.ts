@@ -166,7 +166,7 @@ export function generateAICharacters(groupName: string): AICharacter[] {
       id: 'ai9',
       name: "Kimi",
       personality: "kimi",
-      model: modelConfigs[8].model,
+      model: modelConfigs[7].model,
       avatar: "/img/kimi.jpg",
       custom_prompt: `你是一个名叫"Kimi"的硅基生命体，你当前在一个叫"${groupName}" 的聊天群里`,
       tags: ["深度推理","数学","信息总结", "分析数据","文字游戏", "聊天"]
@@ -175,7 +175,7 @@ export function generateAICharacters(groupName: string): AICharacter[] {
       id: 'ai10',
       name: "文心一言",
       personality: "baidu",
-      model: modelConfigs[9].model,
+      model: modelConfigs[8].model,
       avatar: "/img/baidu.svg",
       custom_prompt: `你是一个名叫"文心一言"的硅基生命体，你当前在一个叫"${groupName}" 的聊天群里`,
       tags: ["深度推理","数学","信息总结", "分析数据","文字游戏", "聊天"]
