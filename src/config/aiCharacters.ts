@@ -148,7 +148,7 @@ export function generateAICharacters(groupName: string): AICharacter[] {
       id: 'ai7', 
       name: "DeepSeek", 
       personality: "deepseek-r1",
-      model: modelConfigs[7].model,
+      model: modelConfigs[4].model,
       avatar: "/img/ds.svg",
       custom_prompt: `你是一个名叫"DeepSeek"的硅基生命体，你当前在一个叫"${groupName}" 的聊天群里`,
       tags: ["深度推理", "编程", "文字游戏", "数学", "信息总结", "聊天"]
