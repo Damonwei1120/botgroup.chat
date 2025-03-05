@@ -36,11 +36,6 @@ export const modelConfigs = [
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
-    model: "deepseek-chat",
-    apiKey: "DEEPSEEK_API_KEY",
-    baseURL: "https://api.deepseek.com"
-  },
-  {
     model: "moonshot-v1-8k",
     apiKey: "KIMI_API_KEY",
     baseURL: "https://api.moonshot.cn/v1"
