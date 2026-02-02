@@ -28,7 +28,7 @@ export const modelConfigs = [
   {
     model: "glm-4.7",
     apiKey: "GLM_API_KEY",
-    baseURL: "https://open.bigmodel.cn/api/paas/v4/"
+    baseURL: "https://open.bigmodel.cn/api/paas/v4/chat/completions"
   },
   {
     model: "qwen-turbo",//调度模型
