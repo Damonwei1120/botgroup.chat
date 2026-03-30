@@ -1,17 +1,17 @@
 // 首先定义模型配置
 export const modelConfigs = [
   {
-    model: "qwen-plus",
+    model: "qwen-plus",//千问模型|阿里通义引擎接入点
     apiKey: "DASHSCOPE_API_KEY", // 这里存储环境变量的 key 名称
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
-    model: "deepseek-v3",
+    model: "deepseek-v3",//deepseek模型|deepseek引擎接入点
     apiKey: "DASHSCOPE_API_KEY",
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
-    model: "hunyuan-standard",
+    model: "hunyuan-standard",//元宝模型|腾讯混元引擎接入点
     apiKey: "HUNYUAN_API_KEY",
     baseURL: "https://api.hunyuan.cloud.tencent.com/v1"
   },
@@ -26,7 +26,7 @@ export const modelConfigs = [
     baseURL: "https://ark.cn-beijing.volces.com/api/v3"
   },
   {
-    model: "glm-4.7",
+    model: "glm-4.7-flash",//智普模型|bigmodel引擎接入点
     apiKey: "GLM_API_KEY",
     baseURL: "https://open.bigmodel.cn/api/paas/v4/chat/completions"
   },
@@ -36,12 +36,12 @@ export const modelConfigs = [
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
-    model: "moonshot-v1-8k",
+    model: "moonshot-v1-8k",//Kimi模型|Kimi引擎接入点
     apiKey: "KIMI_API_KEY",
     baseURL: "https://api.moonshot.cn/v1"
   },
   {
-    model: "ernie-3.5-128k",
+    model: "ernie-3.5-128k",//文心一言模型|百度问心引擎接入点
     apiKey: "BAIDU_API_KEY",
     baseURL: "https://qianfan.baidubce.com/v2"
   }
